@@ -2,7 +2,7 @@
   "name": "test-licenses",
   "version": "1.0.0",
   "dependencies": {
-    "lodash": "^4.17.22",          // Лицензия: MIT (популярная, должна fetch'нуться)
+    "lodash": "^4.17.21",          // Лицензия: MIT (популярная, должна fetch'нуться)
     "express": "^4.18.2",           // Лицензия: MIT
     "moment": "^2.29.4",            // Лицензия: MIT
     "request": "^2.88.2",           // Лицензия: Apache-2.0 (deprecated, но для теста)
