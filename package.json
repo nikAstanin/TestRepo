@@ -2,12 +2,12 @@
   "name": "test-licenses",
   "version": "1.0.0",
   "dependencies": {
-    "lodash": "^4.17.22",          // Лицензия: MIT (популярная, должна fetch'нуться)
-    "old-obscure-pkg": "^1.0.0"
-    "debug": "^4.4.2"
-    "express": "^4.18.2",           // Лицензия: MIT
-    "moment": "^2.29.4",            // Лицензия: MIT
-    "request": "^2.88.2",           // Лицензия: Apache-2.0 (deprecated, но для теста)
-    "terser": "^5.24.0"             // Лицензия: BSD-3-Clause (другая)
+    "lodash": "^4.17.22",
+    "old-obscure-pkg": "^1.0.0",  // Замените на реальный obscure: "gulp-concat": "^2.6.1" (MIT, но old с unknown fallback)
+    "debug": "^4.4.2",            // High vuln (2025 attack)
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "request": "^2.88.2",
+    "terser": "^5.24.0"
   }
 }
